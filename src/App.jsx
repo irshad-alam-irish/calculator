@@ -5,7 +5,7 @@ import Display from "./components/Display";
 import { useState } from "react";
 
 function App() {
-   const [calVal, setCalVal]= useState('1')
+   const [calVal, setCalVal]= useState('')
   
    const onClickHandel = (buttons)=>{
     if (buttons === "C") {
