@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.calculatorContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(198, 84, 84, 0.934);
+    
+}
+.calculator {
+    border: 1px solid rgba(90, 90, 90);
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    background-image: linear-gradient(#aedf8b, #2f6cb7);
+
+}
+.displaycontainer{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}

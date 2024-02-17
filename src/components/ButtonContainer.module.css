@@ -1,0 +1,19 @@
+.buttoncontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button{
+    height: 45px;
+    width: 45px;
+    margin: 3px;
+    background-color: antiquewhite;
+    border-radius: 3px;
+    cursor: pointer;
+    transition:.3s;
+   
+}
+.button:hover{
+    transform: scale(1.02);
+}
